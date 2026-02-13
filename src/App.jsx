@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import FormPage from "./components/FormPage";
-import DisplayPage from "./components/DisplayPage";
+import FormPage from "./components/FormPage.jsx";
+import DisplayPage from "./components/DisplayPage.jsx";
 
 
 function App() {

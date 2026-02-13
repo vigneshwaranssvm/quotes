@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import API from "../services/api";
-import Hero from "./Hero";
-import QuoteCard from "./QuoteCard";
+import API from "../services/api.js";
+import Hero from "./Hero.jsx";
+import QuoteCard from "./QuoteCard.jsx";
 import "../styles/Display.css";
 
 const DisplayPage = () => {
