@@ -6,6 +6,9 @@ app.use(cors());
 app.use(express.json());
 
 let quotes = [];
+app.get("/",(req,res)=>{
+  res.send("Quotes API is running")
+});
 
 // Add Quote
 app.post("/add", (req, res) => {
@@ -34,5 +37,6 @@ app.delete("/delete/:id", (req, res) => {
 app.listen(5000, () => {
   console.log("Server running on port 5000");
 });
+
 
 
