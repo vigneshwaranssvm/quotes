@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import API from "../services/api.js";
-import "../styles/Form.css";
+import "../styles/form.css";
 
 const FormPage = () => {
   const [name, setName] = useState("");

@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import API from "../services/api.js";
 import Hero from "./Hero.jsx";
 import QuoteCard from "./QuoteCard.jsx";
-import "../styles/Display.css";
+import "../styles/display.css";
 
 const DisplayPage = () => {
   const location = useLocation();

@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import "../styles/Hero.css";    
+import "../styles/hero.css";    
 
 const Hero = ({ name, quote }) => {
 
