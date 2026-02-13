@@ -1,0 +1,23 @@
+
+.custom>h2 {
+ display: flex;
+ justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

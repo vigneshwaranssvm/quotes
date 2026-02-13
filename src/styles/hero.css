@@ -1,0 +1,32 @@
+.hero {
+  background: linear-gradient(135deg, #616060);
+  color: white;
+  text-align: center;
+  height: 150px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  width: 100%;
+  background:linear-gradient(90deg,#dddd);
+}
+
+.navbar button {
+  padding: 8px 16px;
+  background: none;
+  color: rgb(19, 19, 19);
+  font-weight: bold;
+}
+
